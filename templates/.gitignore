@@ -1,0 +1,21 @@
+#La carpeta ContenidoSecreto
+**/ContenidoSecreto
+
+#Ignorar Config por seguridad
+**/config.php
+
+#Ignorar Extension pdf en assets
+*.pdf
+!/docs
+
+#Ignorar extension txt 
+**.txt
+
+#Ignorar imagenes exceptuando importantes para el sistema
+/assets/media/images/*
+!-system
+
+#Ignorar -prueba && -local
+*-prueba* 
+*-local*
+!-experimento
