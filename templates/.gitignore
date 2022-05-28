@@ -5,17 +5,18 @@
 **/config.php
 
 #Ignorar Extension pdf en assets
-*.pdf
-!/docs
+**.pdf
+!/docs/*.pdf
 
 #Ignorar extension txt 
 **.txt
 
 #Ignorar imagenes exceptuando importantes para el sistema
 /assets/media/images/*
-!-system
+!*-system*
 
 #Ignorar -prueba && -local
 *-prueba* 
 *-local*
+
 !*-experimento*
